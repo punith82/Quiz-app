@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+li {
+  background-color: rgb(68, 68, 240);
+  padding: 7px;
+  border: 2px solid rgb(69, 38, 38);
+  margin: 5px;
+  border-radius: 5px;
+}
+li:hover {
+  background-color: rgb(95, 95, 233);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+.question {
+  font-size: larger;
+  margin-bottom: 10px;
+}
