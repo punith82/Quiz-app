@@ -9,7 +9,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Layout from "./components/Layout.jsx";
-import Home from "./pages/Home.jsx";
+
 import Categories from "./components/Categories.jsx";
 import DSA from "./pages/DSA.jsx";
 import OS from "./pages/OS.jsx";
@@ -25,7 +25,6 @@ import ML from "./pages/ML.jsx";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route path="home" element={<Home />} />
       <Route path="categories" element={<Categories />} />
       <Route path="dsa" element={<DSA />} />
       <Route path="os" element={<OS />} />

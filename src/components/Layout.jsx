@@ -2,15 +2,15 @@
 import React from "react";
 import { Outlet, NavLink } from "react-router-dom";
 import Header from "./header";
+import Footer from "./footer";
 function Layout() {
   return (
-    <div className="app-container">
+    <div className="bg-slate-800">
       <Header />
-
       <main>
-        {/* This outlet will render all of your main pages */}
         <Outlet />
       </main>
+      <Footer />
     </div>
   );
 }
